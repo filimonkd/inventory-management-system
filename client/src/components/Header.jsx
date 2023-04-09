@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
 import LogoIcon from '../images/logo/logo-icon.svg'
-import DropdownNotification from './DropdownNotification'
-import DropdownMessage from './DropdownMessage'
-import DropdownUser from './DropdownUser'
-import DarkModeSwitcher from './DarkModeSwitcher'
+// import DropdownNotification from './DropdownNotification'
+// import DropdownMessage from './DropdownMessage'
+// import DropdownUser from './DropdownUser'
+// import DarkModeSwitcher from './DarkModeSwitcher'
 import { Link } from 'react-router-dom'
 
 const Header = (
@@ -103,20 +103,20 @@ const Header = (
         <div className='flex items-center gap-3 2xsm:gap-7'>
           <ul className='flex items-center gap-2 2xsm:gap-4'>
             {/* <!-- Dark Mode Toggler --> */}
-            <DarkModeSwitcher />
+            {/* <DarkModeSwitcher /> */}
             {/* <!-- Dark Mode Toggler --> */}
 
             {/* <!-- Notification Menu Area --> */}
-            <DropdownNotification />
+            {/* <DropdownNotification /> */}
             {/* <!-- Notification Menu Area --> */}
 
             {/* <!-- Chat Notification Area --> */}
-            <DropdownMessage />
+            {/* <DropdownMessage /> */}
             {/* <!-- Chat Notification Area --> */}
           </ul>
 
           {/* <!-- User Area --> */}
-          <DropdownUser />
+          {/* <DropdownUser /> */}
           {/* <!-- User Area --> */}
         </div>
       </div>
