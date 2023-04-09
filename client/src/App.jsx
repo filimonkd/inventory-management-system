@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import SignIn from  './pages/Authentication/SignIn'
+import AddItems from './pages/AddItems'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -23,6 +24,7 @@ const App = () => {
       <>
         <Routes>
           <Route exact path='/' element={<SignIn />} />
+          <Route path='/additems' element={<AddItems />} />
         </Routes>
       </>
     )
