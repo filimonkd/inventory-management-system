@@ -199,7 +199,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
               {/* <!-- Menu Item Calendar --> */}
               <li>
                 <NavLink
-                  to='/calendar'
+                  to='/additems'
                   className={`group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                     pathname.includes('calendar') &&
                     'bg-graydark dark:bg-meta-4'
@@ -218,7 +218,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                       fill=''
                     />
                   </svg>
-                  Calendar
+                  Add Items
                 </NavLink>
               </li>
               {/* <!-- Menu Item Calendar --> */}
@@ -248,7 +248,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                       fill=''
                     />
                   </svg>
-                  Profile
+                  Expiring Asset
                 </NavLink>
               </li>
               {/* <!-- Menu Item Profile --> */}
@@ -395,7 +395,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                       </clipPath>
                     </defs>
                   </svg>
-                  Tables
+                  Fixed Asset
                 </NavLink>
               </li>
               {/* <!-- Menu Item Tables --> */}
@@ -438,7 +438,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                       </clipPath>
                     </defs>
                   </svg>
-                  Settings
+                  Fixed Expiring Asset
                 </NavLink>
               </li>
               {/* <!-- Menu Item Settings --> */}
